@@ -1,12 +1,17 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 
 const DarkModeToggle = () => {
   const [theme, setTheme] = useState(
     localStorage.getItem("theme") || "light"
   );
 
+  // Apply theme on mount + whenever it changes
   useEffect(() => {
-    document.documentElement.setAttribute("data-theme", theme);
+    if (theme === "dark") {
+      document.documentElement.classList.add("dark");
+    } else {
+      document.documentElement.classList.remove("dark");
+    }
     localStorage.setItem("theme", theme);
   }, [theme]);
 
@@ -15,19 +20,15 @@ const DarkModeToggle = () => {
   };
 
   return (
-    <button 
+    <button
       onClick={toggleTheme}
-      style={{
-        padding: "8px 12px",
-        borderRadius: "8px",
-        border: "none",
-        cursor: "pointer",
-        background: theme === "light" ? "#333" : "#eee",
-        color: theme === "light" ? "#fff" : "#333",
-        fontWeight: "bold"
-      }}
+      className={`px-3 py-2 rounded-xl border font-medium transition-colors duration-300
+        ${theme === "light" 
+          ? "bg-gray-200 text-gray-800 border-gray-400 hover:bg-gray-300" 
+          : "bg-gray-700 text-gray-200 border-gray-500 hover:bg-gray-600"
+        }`}
     >
-      {theme === "light" ? "🌙 Dark Mode" : "☀️ Light Mode"}
+      {theme === "light" ? "🌙 Dark" : "☀️ Light"}
     </button>
   );
 };
