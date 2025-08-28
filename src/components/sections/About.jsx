@@ -18,11 +18,10 @@ export default function About() {
           <div className="bg-white shadow-md p-6 rounded-2xl w-72">
             <h3 className="text-xl font-semibold text-indigo-600 mb-2">🎓 B.Tech (Computer Science)</h3>
             <p className="text-gray-600">JSS Academy of Technical Education, Noida | 2023 – 2026</p>
-            <p className="text-gray-600 font-semibold mt-1">Computer Science & Engineering</p>
             <p className="text-gray-600 font-semibold mt-1">CGPA: 7.5 / 10</p>
           </div>
           <div className="bg-white shadow-md p-6 rounded-2xl w-72">
-            <h3 className="text-xl font-semibold text-indigo-600 mb-2">🎓 B.Tech (Computer Science)</h3>
+            <h3 className="text-xl font-semibold text-indigo-600 mb-2">🎓 Diploma</h3>
             <p className="text-gray-600">Govt Polytechnic, Ghaziabad | 2020 – 2023</p>
             <p className="text-gray-600 font-semibold mt-1">Percentage: 73%</p>
           </div>
