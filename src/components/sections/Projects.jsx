@@ -6,13 +6,14 @@ const Projects = () => {
     {
       title: "Freelancing Platform (SB Works)",
       description: "A MERN-based freelancing platform with authentication, project posting, bidding, and feedback system.",
-      link: "#",
+      link: "https://freelancing-web-uuwi.vercel.app/",
     },
     {
-      title: "E-Commerce Website",
-      description: "Responsive eCommerce site built with HTML, CSS, JS, showcasing products with cart system.",
-      link: "#",
-    },
+      title: "Educity Project",
+      description: "A modern educational platform showcasing courses and learning resources with a clean, responsive UI.",
+      link: "https://educity-m3f76kknt-sarvesh221007s-projects.vercel.app",
+    }
+    ,
     {
       title: "Portfolio Website",
       description: "Personal portfolio built using React.js and Tailwind CSS to showcase skills and projects.",
