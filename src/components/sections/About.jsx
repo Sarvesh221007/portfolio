@@ -37,11 +37,6 @@ export default function About() {
           </div>
         </div>
 
-        <p className="mt-6 text-gray-600">
-          View my full resume <a href="https://drive.google.com/file/d/105M6iBMLsKyqsIZN-VdEpZaAlffGdDqu/view?usp=drivesdk" 
-          target="_blank" rel="noopener noreferrer" className="text-indigo-600 font-semibold underline">here</a>.
-        </p>
-
         <div className="mt-10 flex flex-wrap justify-center gap-6">
           <div className="bg-white shadow-md p-6 rounded-2xl w-72">
             <h3 className="text-xl font-semibold text-indigo-600 mb-2">🎯 My Focus</h3>
