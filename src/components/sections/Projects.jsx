@@ -12,7 +12,6 @@ const Projects = () => {
       title: "Educity Project",
       description: "A modern educational platform showcasing courses and learning resources with a clean, responsive UI.",
       link: "https://educity-m3f76kknt-sarvesh221007s-projects.vercel.app",
-      link: "https://educity-m3f76kknt-sarvesh221007s-projects.vercel.app",
     }
     ,
     {
