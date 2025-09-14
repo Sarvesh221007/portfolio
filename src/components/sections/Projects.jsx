@@ -15,9 +15,9 @@ const Projects = () => {
     }
     ,
     {
-      title: "Portfolio Website",
-      description: "Personal portfolio built using React.js and Tailwind CSS to showcase skills and projects.",
-      link: "#",
+      title: "Hotel booking (Wonderlust)",
+      description: "A MERN based hotels booking platform. A MERN stack based project with authentication, hotel add, booking and Rating system.",
+      link: "https://github.com/Sarvesh221007/MajorProject",
     },
   ];
 
