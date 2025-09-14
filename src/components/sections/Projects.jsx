@@ -9,16 +9,16 @@ const Projects = () => {
       link: "https://freelancing-web-uuwi.vercel.app/",
     },
     {
+      title: "Hotel booking (Wonderlust)",
+      description: "A MERN based hotels booking platform. A MERN stack based project with authentication, hotel add, booking and Rating system.",
+      link: "https://github.com/Sarvesh221007/MajorProject",
+    },
+    {
       title: "Educity Project",
       description: "A modern educational platform showcasing courses and learning resources with a clean, responsive UI.",
       link: "https://educity-m3f76kknt-sarvesh221007s-projects.vercel.app",
     }
     ,
-    {
-      title: "Hotel booking (Wonderlust)",
-      description: "A MERN based hotels booking platform. A MERN stack based project with authentication, hotel add, booking and Rating system.",
-      link: "https://github.com/Sarvesh221007/MajorProject",
-    },
   ];
 
   return (
